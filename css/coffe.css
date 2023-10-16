@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* background-image: url(images/coffe.jpg); */
+    height: 100vh;
+    
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(images/coffe.jpg);
+}
+.title{
+    color: #fff;
+    font-size: 60px;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+.nav-bar.title{
+    color: #fff;
+    font-size: 100px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.span1{
+    color: crimson;
+}
+.nav-bar p{
+    position: absolute;
+    color: #fff;
+    margin-top: 80px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 27px;
+    margin-left: 25px;
+    font-weight: 600;
+    transition: .4s ease;
+}
+.menu li a:hover{
+    color: crimson;
+    padding: 8px 20px;
+    border: 2px solid #fff;
+}
+.home{
+    font-size: 15px;
+    color:lemonchiffon;
+    justify-content: space-between;
+    padding: 100px 60px;
+}
+button{
+    background: crimson;
+    color: white;
+    width: 150px;
+    height: 80px;
+    font-size: 20px;
+    padding: 5px 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 6s ease;
+}
+button:hover{
+    background:none;
+    border: 2px solid crimson;
+}
